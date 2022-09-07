@@ -1,0 +1,516 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.body {
+    background-color: whitesmoke;
+    margin: auto;
+}
+.navbarr img{
+    width:100px;
+    height: 50px;
+   
+}
+.navbarr{
+    height: 50px;
+background-color: rgb(3 7 11) !important;
+    padding-top: 0%;
+    padding-bottom: 0%;}
+.slider1 {
+    width: 100%;
+    margin-left: 0%;
+    height: auto;
+}
+.card{
+    margin-top: 200px;
+    justify-content: space-around;
+    width: 330;
+
+}
+.card4{
+    margin-top: 5px !important;
+}
+
+.upper-bar {
+    background-color: rgb(19, 25, 33);
+    color: aliceblue;
+
+}
+.upper-bar img{
+    width:170px;
+}
+
+.imgg1 {
+    width: 345px;
+    height: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+button {
+    color: aliceblue !important;
+
+
+}
+
+.phone {
+    padding-top: 10px !important;
+}
+
+h6 {
+    font-size: 16px !important;
+}
+.navbarr a {
+    color: aliceblue !important;
+}
+
+.font {
+    font-size: 13px;
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    margin: 10px;
+}
+
+.h6 {
+    font-size: 10px !important;
+    color: grey;
+}
+.card5 {
+    margin-top: 250px;
+    justify-content: space-around;
+}
+.card2 {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    justify-content: space-around;
+    padding-right: 2px;
+    margin-top: 10px;
+}
+.s1row{
+   margin-top: 20px;
+   margin: auto;
+   
+}
+.slider2 {
+    width: 100%;
+    margin-left: 0%;
+    height: auto;
+    justify-content: space-around;
+    padding-right: 2px;
+
+}
+
+
+.s1row img{
+    width:85%;
+     height:200px;
+}
+
+.roww1 {
+    width: 99%;
+}
+
+.card3 {
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+    justify-content: space-around;
+    padding-right: 2px;
+    margin-top: 10px;   width: 330px;
+}
+
+.game {
+    width: 120px;
+    height: 260px;
+}
+
+.phone {
+    height: 260px;
+}
+
+.btnred {
+    background-color: rgb(204, 12, 57);
+    font-size: 16px;
+    margin-top: 5px;
+    color: white;
+    width: 70%;
+}
+
+.footer a {
+    color: aliceblue;
+}
+   
+    .navbarr{
+        height: 50px;
+    }
+    .slider1 {
+        width: 100%;
+        height: 100vh;
+    }
+    .card{
+        margin-top: 250px;
+        justify-content: space-around;
+        width: 330;
+    
+    }
+    .card4{
+        margin-top: 5px !important;
+    }
+    
+    .upper-bar {
+        background-color: rgb(19, 25, 33);
+        color: aliceblue;
+    
+    }
+    .upper-bar img{
+        width:170px;
+    }
+    
+    .imgg1 {
+        width: 345px;
+        height: 100%;
+    }
+    
+    .right {
+        text-align: right;
+    }
+    
+    button {
+        color: aliceblue !important;
+    
+    
+    }
+    
+    .phone {
+        padding-top: 10px !important;
+    }
+    
+    h6 {
+        font-size: 16px !important;
+    }
+    .navbarr a {
+        color: aliceblue !important;
+    }
+    
+    .font {
+        font-size: 13px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    form {
+        margin: 10px;
+    }
+    
+    .h6 {
+        font-size: 10px !important;
+        color: grey;
+    }
+    .card5 {
+        margin-top: 250px;
+        justify-content: space-around;
+    }
+    .card2 {
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+        justify-content: space-around;
+        padding-right: 2px;
+        margin-top: 10px;
+    }
+    .s1row{
+       margin-top: 20px;
+       margin: auto;
+       
+    }
+    .slider2 {
+        width: 100%;
+        margin-left: 0%;
+        height: auto;
+        justify-content: space-around;
+        padding-right: 2px;
+    
+    }
+    
+    
+    .s1row img{
+        width:85%;
+         height:200px;
+    }
+    
+    .roww1 {
+        width: 99%;
+    }
+    
+    .card3 {
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+        justify-content: space-around;
+        padding-right: 2px;
+        margin-top: 10px;   width: 330px;
+    }
+    
+    .game {
+        width: 100% !important;
+        height: 100%!important;
+    }
+    
+    .phone {
+        height: 260px !important;
+    }
+    
+    .btnred {
+        background-color: rgb(204, 12, 57);
+        font-size: 16px;
+        margin-top: 5px;
+        color: white;
+        width: 70%;
+    }
+    
+    .footer a {
+        color: aliceblue;
+    }
+
+@media screen and (max-width:768px){
+    .upper-bar{
+        height: 0px;
+        width: -10px;
+    }
+    h5 {
+        font-size: 10px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .card{
+        margin-top: 150px;
+        justify-content: space-around;
+        width: 330;
+        height: 250px;
+    
+    }
+    .card2 {
+        width: 100%;
+        margin-left: 0px;
+        height: 250px;
+        justify-content: space-around;
+        padding-right: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.imgg1 {
+       
+        width: 245px;
+        height: 100%;
+       
+    }
+    .game {
+        width: 75px;
+        height: 75px;
+    }
+    .phone {
+        height: 150px;
+    }
+    #card{
+       height: 250px;
+    }
+    .btnred{
+        width: 100%;
+    }
+    .footer a {
+        font-size: 10px;
+    }
+    .s1row {
+        height: 150px;
+    }
+    .s1row img{
+        height: 150px;
+    }
+}
+@media screen and (max-width:1024px){
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 16px;
+    }
+    .card{
+        margin-top: 200px;
+        justify-content: space-around;
+        width: 330;
+        height: 321px;
+    
+    }
+    .card2 {
+        width: 100%;
+        margin-left: 0px;
+        height: 321px;
+        justify-content: space-around;
+        padding-right: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.imgg1 {
+       
+        width: 245px;
+        height: 100%;
+       
+    }
+    .game {
+        width: 100px;
+        height: 100px;
+    }
+    .phone {
+        height: 225px;
+    }
+    #card{
+       height: 321px;
+    }
+    .btnred{
+        width: 100%;
+    }
+
+}
+
+
+ @media screen and (max-width:1440px)  {
+    
+    .card{
+        margin-top: 300px;
+        justify-content: space-around;
+        width: 330;
+        height: 400px;
+    
+    }
+    .card2 {
+        width: 100%;
+        margin-left: 0px;
+        height: 400px;
+        justify-content: space-around;
+        padding: 2px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .game {
+        width: 150px;
+        height: 150px;
+    }
+    .imgg1 {
+       
+        width: 250px;
+        height: 100%;
+       
+    }
+    .phone {
+        height: 300px;
+    }
+    #card{
+       height: 400px;
+    }
+    .btnred{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:2560px){
+    .navbarr{
+        width: 100%;
+    }
+    .card{
+        margin-top: 450px;
+        justify-content: space-around;
+        width: 330;
+    
+    }
+    .card2 {
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+        justify-content: space-around;
+        padding-right: 2px;
+        margin-top: 10px;
+    }
+    .game {
+        width: 300px;
+        height: 242px;
+    }
+    .makeup{
+        
+            margin-top: 40px !important;
+            margin: auto;
+            margin-bottom: 40px;
+    }
+
+    .imgg1 {
+        margin-right: 0px;
+        width: 548px;
+        height: 100%;
+    }
+    .phone{
+        height:490px;
+    }
+}
+
+
+
+ /*
+@media screen and (min-width:425px){
+
+    .upper-bar{
+        height: 0px;
+        width: -10px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .card img {
+        height: 253px;
+        width: 400px;
+    }
+    h6{
+        font-size: 20px;
+    }
+    .card{
+       margin-top: 130px;
+        justify-content: space-around;
+        width: 390px;
+        height: 250px;
+    
+    }.card2{
+        height: 250px;
+    }
+    .card img{
+        height: 240px;
+        width:390px;
+    }
+    .navbarr img{
+        width:75px;
+    }
+    .game{
+        height: 150px;
+    }
+    .makeup{
+        height: 250px;
+    }
+    .body {
+       height: 200%;
+    }
+    img{
+        height: 240px;
+    }
+} */
+

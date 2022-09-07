@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap test</title>
+  <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="body">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbarr" id="navbarr">
+      <img src="./img/R.jfif" >
+      <a class="navbar-brand " href="#">
+        <div class="font center"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          </svg> Deliver to<br> Egypt</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control ml-sm-2 input" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Hello, SignIn <br> Acount & lists
+            </a>
+            <div class="dropdown-menu center">
+              <button type="button" class="btn btn-warning signin" style="background-color:rgb(241, 197, 86);">
+                SignIn</button>
+              <h6 class="h6">New Customer? Start Here</h6>
+              <a class="dropdown-item" style="color: grey !important ;" href="#">Your List</a>
+              <a class="dropdown-item" style="color: grey !important ;" href="#">Create List</a>
+              <a class="dropdown-item" style="color: grey !important ;" href="#">Your Acount</a>
+              <a class="dropdown-item" style="color: grey !important ;" href="#">your Address</a>
+            </div>
+          </li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cart-dash-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z" />
+        </svg>
+      </div>
+    </nav>
+
+    <!--UPPER BAR-->
+    <div class="upper-bar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-9 col-md-8 col-sm-12">
+            <button type="button" class="btn btn-outline-dark">
+              <div class="row"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor"
+                  class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <h6>ALL</h6>
+              </div>
+            </button>
+
+            <button type="button" class="btn btn-outline-dark">Today's Deals</button>
+            <button type="button" class="btn btn-outline-dark">Mobile Phones</button>
+            <button type="button" class="btn btn-outline-dark">Help</button>
+            <button type="button" class="btn btn-outline-dark">Electronics</button>
+            <button type="button" class="btn btn-outline-dark">Fashion</button>
+            <button type="button" class="btn btn-outline-dark">Home</button>
+            <button type="button" class="btn btn-outline-dark">Video Game</button>
+            <button type="button" class="btn btn-outline-dark">Toys & Games</button>
+            <button type="button" class="btn btn-outline-dark">Grocery</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--SLIDER-->
+    <div class="slider">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/s1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s4.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s5.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s6.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s7.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/s8.jpg" alt="Third slide">
+          </div>
+          <!--card1-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="card">
+                  <h5>Men's Shoes | Up to 60% off</h5>
+                  <img class="card-img-top" src="./img/img1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="card">
+                  <h5>Headphones | Below 650 EGP</h5>
+                  <img class="card-img-top" src="./img/img2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                <div class="card">
+                  <h6>Stream global hit shows with Amazon Prime</h6>
+                  <img class="card-img-top" src="./img/img3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                <div class="card">
+                  <h5>Your favorite makeup</h5>
+                  <img class="card-img-top" src="./img/img4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--slider2 card2-->
+            <div class="row slider2">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="card card2">
+                  <h5>Men's Shoes | Up to 60% off</h5>
+                  <img class="card-img-top" src="./img/img5.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="card card2">
+                  <h5>Headphones | Below 650 EGP</h5>
+                  <img class="card-img-top" src="./img/img6.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                <div class="card card2">
+                  <h6>Stream global hit shows with Amazon Prime</h6>
+                  <img class="card-img-top" src="./img/img7.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                <div class="card card2">
+                  <h5>Your favorite makeup</h5>
+                  <img class="card-img-top" src="./img/img8.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#">see more</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--new slider-->
+    <div class="sl" style="background-color:white; margin-top:20px; margin: auto; height:30%; width:98%;">
+      <h5>Today's Deals <a href="#" style="font-size: 13px;">See More Deals</a></h5>
+      <div id="#" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="##" data-slide-to="0" class="active"></li>
+          <li data-target="##" data-slide-to="1"></li>
+          <li data-target="##" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl1.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl2.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl3.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl4.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl5.jpg" width="85%" height="200px">
+
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl6.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl7.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl8.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl9.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4"> <img src="./img/sl10.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl1.jpg" width="85%" height="200px">
+
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4"> <img src="./img/sl12.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl13.jpg" width="85%" height="200px">
+
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl14.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl15.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl16.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl17.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/sl18.jpg" width="85%" height="200px">
+                  <div class="btnred">
+                    <p>EGP 170 and under </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="##" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--new slider1-->
+    <div class="sl" style="background-color: white; margin-top:20px; margin: auto; height:30%; width:98%;">
+      <h5>Today's Deals <a href="#" style="font-size: 13px;">See More Deals</a></h5>
+      <div id="#" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="##" data-slide-to="0" class="active"></li>
+          <li data-target="##" data-slide-to="1"></li>
+          <li data-target="##" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu11.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu2.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu3.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu4.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu5.jpg" width="85%" height="200px">
+
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu6.jpg" width="85%" height="200px">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu7.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu8.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu9.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4"> <img src="./img/bu10.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu11.jpg" width="85%" height="200px">
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4"> <img src="./img/bu12.jpg" width="85%" height="200px">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-lg-2 col-md-2 col-sm-4"> <img src="./img/bu.jpg" width="85%" height="200px">
+
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu10.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu2.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu4.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu9.jpg" width="85%" height="200px">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4">
+                  <img src="./img/bu9.jpg" width="85%" height="200px">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="##" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+    <!---->
+
+    <!--card3 class=card2-->
+    <div style="padding-top: 10px;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2">
+              <h5>Outdoor grills | Starting 160 EGP</h5>
+              <img src="./img/c2-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2">
+              <h5>Baby Gear | Up to 40% off</h5>
+              <img src="./img/card2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2">
+              <h5>New arrivals | Jewelry & accessories</h5>
+              <img src="./img/c2-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <!--feha 4 swr class=game -->
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2">
+              <h5>Toys & Games</h5>
+              <div class="conrainer-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <img class="game" src="./img/c2-3.jpg" height="120px">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./img/c2-3-2.jpg" class="game" height="120px">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./img/c2-3-3.jpg" class="game"height="120px">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./img/c2-3.jpg" class="game"  height="120px">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--MAKEUP s1row makeup-->
+    <div class="makeup" style="background-color: white; margin-top: 20px;  margin: auto; height:30%; width:98%;">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5>Makeup essentials <a href="#" style="font-size: 13px;">Shop now</a></h5>
+            <div class="container-fluid s1row">
+              <div class="row " style="justify-content:space-around">
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup1.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup2.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup3.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup4.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup5.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup6.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup7.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup8.jpg" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h5>Makeup essentials</h5>
+            <div class="container-fluid s1row">
+              <div class="row" style="justify-content:space-around">
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup9.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup10.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup11.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup12.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup13.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup14.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup15.jpg" >
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup16.jpg" >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <h5>Makeup essentials</h5>
+            <div class="container-fluid s1row">
+              <div class="row" style="justify-content:space-around">
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup17.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup18.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup19.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup20.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup21.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup22.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup23.jpg">
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                  <img src="./img/makeup24.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--CARD4 card2-->
+    <div style="padding-top: 10px;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2" id="card">
+              <h5>Toys & Games</h5>
+              <img src="./img/card4-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2" id="card">
+              <h5>New arrivals | Eyewear</h5>
+              <img src="./img/card4-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card card2">
+              <h5>New arrivals | Eyewear</h5>
+              <img src="./img/card4-5.jpg" class="card-img-top phone" alt="...">
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <!--card2 game-->
+            <div class="card card2">
+              <h5>Cookware & Kitchen essentials</h5>
+              <div class="conrainer-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="./img/card4-3-4.jpg" class="game" height="120px">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./img/card4-3-2.jpg" class="game" height="120px">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./img/card4-3-3.jpg" class="game" height="120px">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./img/card4-3-4.jpg" class="game" height="120px">
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top:30px;">
+      <h6>See personalized recommendations</h6>
+      <button type="button" class="btn btn-warning"
+        style="width: 250px; background-color:rgb(255, 197, 49) !important;">SignIn</button>
+    </div>
+    <div class="footer">
+      <button type="button" class="btn btn-primary btn-lg btn-block"
+        style="background-color: rgb(72, 87, 105) !important; margin-top: 40px;">back to top
+      </button>
+      <div class="container-fluid" style="background-color: #232F3E; color: aliceblue; padding:30px;">
+        <div class="row" style="text-align: center;">
+          <div class="col-lg-3 col-md-3 col=sm-6">
+            <h6>Get to Know Us<br></h6>
+            <a href="#"> About Amazon</a><br>
+            <a href="#">Careers</a><br>
+            <a href="#">Amazon Science</a> <br>
+
+          </div>
+          <div class="col-lg-3 col-md-3 col=sm-6">
+            <h6>Shop with Us<br></h6>
+            <a href="#">Your Account</a><br>
+            <a href="#"> Your Orders</a><br>
+            <A href="#"> Your Addresses</A><br>
+            <A href="#">Your Lists</A>
+          </div>
+          <div class="col-lg-3 col-md-3 col=sm-6">
+            <h6>Make Money with Us<br></h6>
+            <a href="#">Advertise Your Products</a><br>
+            <a href="#">Sell on Amazon</a><br>
+            <a href="#">Fulfillment by Amazon</a><br>
+          </div>
+          <div class="col-lg-3 col-md-3 col=sm-6">
+            <h6>Let Us Help You <br></h6>
+            <a href="#">Help</a><br>
+            <a href="#">Shipping & Delivery</a><br>
+            <a href="#">Returns & Replacements</a><br>
+            <a href="#">Amazon App Download</a><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--1- jquery 2- popper 3- js-->
+  <script src="../bootstrap-4.6.2-dist/jquery.slim.min.js"></script>
+  <script src="../bootstrap-4.6.2-dist/popper.min.js"></script>
+  <script src="../bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
